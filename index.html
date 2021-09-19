@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Pouyan Fotouhi Tehrani">
+
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/fontawesome.all.min.css" rel="stylesheet">
+
+    <title>Open Transparent DNS Forwarders | Security Now!</title>
+</head>
+
+<body class="d-flex bg-light" data-active-page="home">
+
+    <div class="container p-3 mx-auto">
+        <div class="row">
+            <header>
+                <div>
+                    <h1 class="logo display-6 float-md-start mb-0">SecNow!</h1>
+                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                        <a class="nav-link active" aria-current="page">Transparent DNS Forwarders</a>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link active" aria-current="page" href="https://github.com/ilabrg/artifacts-conext21-dns-fwd">CoNEXT'21 Artifacts</a>
+                        <!---<a class="nav-link" href="/paper">Paper</a>-->
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <div id="home">
+            <main class="row row-cols-sm-1 px-3 mb-3 mt-5">
+                <div class="box h-100 w-100">
+                    <div class="box-title">Synopsis</div>
+                    <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
+                        <div class="col-sm-12">
+                            <p class="fs-3 text-justify">
+                                We revisit the <u class="primary">open DNS (ODNS) infrastructure</u> and, for the first time, systematically measure and analyze  <u class="success">transparent forwarders</u>, DNS components that <u class="danger">transparently relay</u> between stub resolvers and recursive resolvers. We introduce <u class="success">DNSRoute++</u>, a new traceroute approach that leverages the behaviour of transparent forwarders and explores interconnectivity in the ODNS.
+                                
+                            </p>
+                            <div id="goto-reports">
+                                <a href="/reports" class="text-decoration-none link-dark">
+                                    <hr>
+                                    <p class="text-center">
+                                        <strong class="fs-2">
+                                           Key findings include that transparent forwarders contribute 26% to the current ODNS infrastructure, missed by common scanning campaigns; and that many transparent forwarders relay to a few selected public resolvers such as Google and Cloudflare, which confirms a consolidation trend of DNS stakeholders. Full access to data will follow soon. <!--<u class="primary">assurance profiles here</u>-->
+                                        </strong>
+                                    </p>
+                                    <hr>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="tba"><img src="/assets/img/main.jpg"
+                                    class="w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div id="reports">
+            <main class="row row-cols-sm-1 row-cols-md-2 px-3 mb-3 align-items-stretch">
+                <div id="summary" class="col-sm-12 mt-5">
+                    <div class="box h-100">
+                        <div class="box-title">Summary</div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="hostnames" class="form-label">Alerting Authority</label>
+                                <select id="hostnames" class="form-select" disabled>
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                        </form>
+
+                        <div id="aa" class="text-break" hidden>
+                            <strong><span id="aa-name"></span></strong> is accessible under <a id="aa-url" href=""></a>.
+                            It's domain name <strong id="aa-hostname"></strong> is registered under .<strong
+                                id="aa-pubsuf"></strong>, a <strong id="aa-pubsuf-type"></strong>.
+                            It is <u id="aa-dnssec-not" class="danger">not</u> securely delegated (DNSSEC)<strong
+                                id="aa-dnssec-parent-not"> and its top level domain <u class="danger">neither</u>
+                                supports DNSSEC</strong>.
+                            <div id="aa-ssl">
+                                <span class="enabled">
+                                    Transport layer security is <u class="success">enabled</u> for this host <strong
+                                        class="valid">with a <u class="success">valid</u> certificate.</strong>
+                                    <span class="invalid">
+                                        but with an
+                                        <u class="danger">invalid</u>
+                                        certificate.
+                                    </span>
+                                    Provided certificate is a(n) <u id="aa-cert-type"></u> certificate.
+                                </span>
+                                <span class="disabled">
+                                    Transport layer security protocol (SSL/TLS) is <u class="danger">not</u> enabled
+                                    for this host!
+                                </span>
+                            </div>
+                            <!-- <hr>
+                                <h4 id="verdict">Verdict:</h4>
+                                <div class="verdict-body"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="details" class="col-sm-12 mt-5 show-help">
+                    <div class="box h-100">
+                        <div class="box-title">Details</div>
+                        <div class="help d-flex align-items-center h-100 w-100 text-muted">
+                            <div class="text-center text-uppercase w-100 fs-4"><i
+                                    class="d-none d-md-block fas fa-arrow-circle-left me-2"></i><i
+                                    class="d-block d-md-none fas fa-arrow-circle-up me-2"></i>Select an Alerting
+                                Authority&hellip;</div>
+                        </div>
+                        <div id="assurance-id" class="card mb-2">
+                            <div class="card-header">
+                                <h5>Identification</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                            <template id="id-restricted-tld">
+                                Your domain name is registered under a <u class="success">restricted top-level domain
+                                    (TLD)</u> and as such provides the first hint about its owner (e.g., <span
+                                    class="font-monospace">.edu</span> TLD is only reserved for higher education
+                                institutes).
+                            </template>
+                            <template id="id-unrestricted-tld">
+                                The usage of <u class="warning">unrestricted top level domain (TLD)</u> names is an
+                                enabler for impersonation through name spoofing.
+                            </template>
+                            <template id="id-good-cert">
+                                An <u class="success">organization or extended validation (OV/EV)</u> certificate
+                                provides adequate identification information.
+                            </template>
+                            <template id="id-not-good-cert">
+                                A <u class="warning">domain validation (DV)</u> certificate lacks identification
+                                information.
+                            </template>
+                            <template id="id-not-good-cert-no-dnssec">
+                                Moreover, <u class="danger">lack of DNSSEC</u> can lead to DV certificate misissuance.
+                            </template>
+                            <template id="id-no-dnssec">
+                                Finally, <u class="danger">insecure domain names</u> (no DNSSEC) are susceptible to
+                                hijacking and can lead to forwarding to malicious hosts regardless of the certificate
+                                provided.
+                            </template>
+                        </div>
+                        <div id="assurance-res" class="card mb-2">
+                            <div class="card-header">
+                                <h5>Resolution</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                            <template id="res-dnssec">
+                                Using <u class="success">DNSSEC</u> you can make sure that security-aware resolvers
+                                would detect any resolution manipulation attempts.
+                            </template>
+                            <template id="res-no-dnssec">
+                                You don't seem to have DNSSEC enabled (verify <a class="dnsviz" href="">here</a>) and as
+                                such susceptible to DNS hijacking.
+                            </template>
+                            <template id="res-no-dnssec-good-cert">
+                                However, if users manage to reach the correct host, the provided <u
+                                    class="success">OV/EV</u> certificate can prove that correct binding of domain name
+                                and its host.
+                            </template>
+                        </div>
+                        <div id="assurance-trans" class="card mb-2">
+                            <div class="card-header">
+                                <h5>Transaction</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                            <template id="trans-verified-cert">
+                                You are using a valid certificate and as such transactions with users are secure against
+                                eavesdropping or manipulation.
+                            </template>
+                            <template id="trans-bad-cert">
+                                The certificate that you are providing could not be verified (see <a class="ssllabs"
+                                    href="">here</a>), thus endangering the transaction security.
+                            </template>
+                            <template id="trans-no-ssl">
+                                You failed to enable transport security protocol and as such transactions with users are
+                                susceptible to eavesdropping or manipulation.
+                            </template>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <br />* You can also download the raw data and our toolchain <a
+                        href="https://zenodo.org/record/4300947">on zenodo</a>.
+                </div>
+            </main>
+        </div>
+
+        <div id="paper">
+            <main class="h-100 row row-cols-sm-1 px-3 mb-3 mt-5">
+                <div class="box h-100 w-100">
+                    <div class="box-title">Reference</div>
+                    <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch h-100">
+                        <div class="col-sm-12">
+                            <p class="fs-3 text-justify">
+                                You can download the full study <a
+                                    href="assets/static/www2021-alerting-authorities.pdf">here</a>.
+                            </p>
+                            <p class="fs-3 text-justify">
+                                If you cite this study, use <a href="https://zenodo.org/record/4300947">data or
+                                    tools</a>, please, refer as follows:
+                            </p>
+                            <p class="fs-4 text-justify font-monospace bg-white border p-3">
+                                Pouyan Fotouhi Tehrani, Eric Osterweil, Jochen H. Schiller, Thomas C. Schmidt, Matthias
+                                W&auml;hlisch, <a href="assets/static/www2021-alerting-authorities.pdf">Security of
+                                    Alerting Authorities in the WWW: Measuring Namespaces DNSSEC and Web PKI</a>, In: <u
+                                    class="warning">Proceedings of The Web Conference 2021 (WWW '21)</u>, New York, USA:
+                                ACM, 2021.
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="/assets/static/www2021-alerting-authorities.pdf"><img src="/assets/img/main.jpg"
+                                    class="w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div id="about">
+            <main class="row row-cols-sm-1 px-3 mb-3 mt-5">
+                <div class="box h-100 w-100">
+                    <div class="box-title">Contact</div>
+                    <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
+                        <div class="col-sm-12">
+                            <p class="fs-4 text-justify">In case of questions, please, contact <a
+                                    href="https://www.nawrocki.berlin/">Marcin Nawrocki</a>.</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <ul class="list-group">
+                                <li class="list-group-item head">
+                                    <div class="head-img mn rounded-circle float-start"></div>
+                                    <p class="mt-4"><a
+                                            href="https://www.weizenbaum-institut.de/en/portrait/p/pouyan-fotouhi-tehrani/">Marcin Nawrocki</a>
+                                        PhD-Candidate at <em>The
+                                            Freie Universit&auml;t Berlin</em>
+                                    </p>
+                                </li>
+                                <li class="list-group-item head">
+                                    <div class="head-img mk rounded-circle float-start"></div>
+                                    <p class="mt-4">Maynard Koch
+                                        Undergraduate student at <em>The
+                                            Freie Universit&auml;t Berlin</em>
+                                    </p>
+                                </li>
+                                <li class="list-group-item head">
+                                    <div class="head-img tcs rounded-circle float-start"></div>
+                                    <p class="mt-4">
+                                        <a href="https://users.informatik.haw-hamburg.de/~schmidt/">Thomas C.
+                                            Schmidt</a>
+                                        Professor, Department of Informatik at <em>Hamburg
+                                            University of Applied Sciences.</em>
+                                    </p>
+                                </li>
+                                <li class="list-group-item head">
+                                    <div class="head-img mw rounded-circle float-start"></div>
+                                    <p class="mt-4">
+                                        <u><a
+                                                href="https://www.mi.fu-berlin.de/en/inf/groups/ilab/members/waehlisch.html">Matthias
+                                                W&auml;hlisch</a></u>
+                                        Professor, Institute of Computer Science at <em>Freie Universit&auml;t
+                                            Berlin.</em>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+
+</html>
