@@ -1,0 +1,22 @@
+title: "Security Now!"
+subtitle: "Transparent DNS Forwarders"
+author: 
+#email: your-email@secnow.net
+description: >- # this means to ignore newlines until "baseurl:"
+  Multiline desc starts here.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://odns.secnow.net" # the base hostname & protocol for your site
+
+navbar_list:
+- name: Home
+  link: /
+- name: Measurements
+  link: /data
+- name: CoNEXT'21 Artifacts
+  link: https://github.com/ilabrg/artifacts-conext21-dns-fwd
+- name: Contact
+  link: /contact
+
+sass:
+  compressed: true

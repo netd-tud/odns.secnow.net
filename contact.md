@@ -1,50 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/main.css" rel="stylesheet">
-    <link href="/assets/css/fontawesome.all.min.css" rel="stylesheet">
-
-    <title>Open Transparent DNS Forwarders | Security Now!</title>
-</head>
-
-<body class="d-flex bg-light" data-active-page="home">
-
-    <div class="container p-3 mx-auto">
-        <div class="row">
-            <header>
-                <div>
-                    <h1 class="logo display-6 float-md-start mb-0">SecNow!</h1>
-                    <nav class="nav nav-masthead justify-content-center float-md-end">
-                        <a class="nav-link active" aria-current="page">Transparent DNS Forwarders</a>
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        <a class="nav-link active" aria-current="page" href="https://github.com/ilabrg/artifacts-conext21-dns-fwd">CoNEXT'21 Artifacts</a>
-                        <!---<a class="nav-link" href="/paper">Paper</a>-->
-                        <a class="nav-link" href="/contact.html">Contact</a>
-                    </nav>
-                </div>
-            </header>
-        </div>
-
-        <div id="home">
-            <main class="row row-cols-sm-1 px-3 mb-3 mt-5">
-                <div class="box h-100 w-100">
-                    <div class="box-title">Contact</div>
-                    <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
-                        <div class="col-sm-12">
+---
+layout: base
+title:  "About"
+---
+<main id="about" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">Contact</div>
+        <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
+            <div class="col-sm-12">
                             <p class="fs-4 text-justify">In case of questions, please, contact <a
                                     href="https://www.nawrocki.berlin/">Marcin Nawrocki</a>.</p>
-                        </div>
+
+            </div>
                         <div class="col-sm-12">
                             <ul class="list-group">
                                 <li class="list-group-item head">
                                     <div class="head-img mn rounded-circle float-start"></div>
                                     <p class="mt-4"><a
-                                            href="https://www.weizenbaum-institut.de/en/portrait/p/pouyan-fotouhi-tehrani/">Marcin Nawrocki</a>
+                                            href="https://www.nawrocki.berlin/">Marcin Nawrocki</a>
                                         PhD-Candidate at <em>The
                                             Freie Universit&auml;t Berlin</em>
                                     </p>
@@ -77,15 +49,6 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-            </main>
         </div>
-
-        <script src="/assets/js/main.js"></script>
-        <script src="/assets/js/bootstrap.bundle.min.js"></script>
     </div>
-</body>
-
-</html>
-
+</main>
