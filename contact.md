@@ -17,15 +17,13 @@ title:  "About"
                                     <div class="head-img mn rounded-circle float-start"></div>
                                     <p class="mt-4"><a
                                             href="https://www.nawrocki.berlin/">Marcin Nawrocki</a>
-                                        PhD-Candidate at <em>The
-                                            Freie Universit&auml;t Berlin</em>
+                                        PhD-Candidate at <em>Freie Universit&auml;t Berlin</em>
                                     </p>
                                 </li>
                                 <li class="list-group-item head">
                                     <div class="head-img mk rounded-circle float-start"></div>
                                     <p class="mt-4">Maynard Koch
-                                        Undergraduate student at <em>The
-                                            Freie Universit&auml;t Berlin</em>
+                                        Undergraduate student at <em>Freie Universit&auml;t Berlin</em>
                                     </p>
                                 </li>
                                 <li class="list-group-item head">
