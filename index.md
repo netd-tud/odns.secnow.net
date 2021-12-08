@@ -3,6 +3,20 @@ layout: base
 title:  "Home"
 subtitle: "Synopsis"
 ---
+
+<main id="Note" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">New Measurements</div>
+        <div class="row px-3 mb-3 align-items-stretch">
+            <div class="col-sm-12">
+                <p class="fs-3 text-justify">
+                We started to continue our measurements on a weekly base!<br>Visit <a href="/data">Measurements</a> to see our current results.
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
 <main id="Home" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
         <div class="box-title">Synopsis</div>
