@@ -3,10 +3,65 @@ layout: base
 title:  "Transparent DNS Forwarders Measurement Results"
 datatable: true
 ---
+<main id="odns_components" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">Distribution of ODNS Components over the World</div>
+            <div class="row px-3 mb-3 align-items-stretch">
+                <div class="col-sm-12">
+                    <img src="/assets/img/figures/world_map_odns.png" width="90%">
+                </div>
+            </div>
+    </div>
+</main>
+
+
+<main id="odns_amount_over_time" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">Number of ODNS Components</div>
+            <div class="row px-3 mb-3 align-items-stretch">
+                <div class="col-sm-12">
+                    <p class="fs-4 text-justify">
+                    This line plot shows the amount of every ODNS component for every measurements we have done. This data is refreshing on a weekly base as we continously scan the IPv4 address space for transparent forwarders.
+                    </p>
+                    <img src="/assets/img/figures/transp_fwd_over_time.png" width="90%">
+                </div>
+            </div>
+    </div>
+</main>
+
+
+<main id="bars_topxcc" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">Share of ODNS Components of Top-50 Countries</div>
+            <div class="row px-3 mb-3 align-items-stretch">
+                <div class="col-sm-12">
+                    <p class="fs-4 text-justify">
+                    This plot shows the Top-50 countries which host the most transparent forwarders (absolut). The bars show the share of all ODNS components per country, the left y-axis shows the absolut amount of transparent forwarders active in these countries. Countries highlighted in bold and marked with a '*' are emerging markets.
+                    </p>
+                    <img src="/assets/img/figures/bars_topxcc_odns_shares.png" width="90%">
+                </div>
+            </div>
+    </div>
+</main>
+
+<main id="heatmap_topxcc" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">Consolidation Effect of Transparent Forwarders in Top-50 Countries</div>
+            <div class="row px-3 mb-3 align-items-stretch">
+                <div class="col-sm-12">
+                    <p class="fs-4 text-justify">
+                    This plot shows the Top-50 countries which host the most transparent forwarders (absolut). Countries highlighted in bold and marked with a '*' are emerging markets. This heatmap shows where transparent forwarders relay their requests to. Most of the requests are forwarded to resolver of Google. 
+                    </p>
+                    <img src="/assets/img/figures/heatmap_dominance_pub_rr.png" width="90%">
+                </div>
+            </div>
+    </div>
+</main>
+
 
 <main id="data" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
-      <div class="box-title">Measurement Results</div>
+      <div class="box-title">Top 50 Autonomous System with most Transparent Forwarders</div>
       <div class="row px-3 mb-3 align-items-stretch">
         <div class="col-sm-12">
           <p class="fs-4 text-justify">
