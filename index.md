@@ -26,7 +26,7 @@ subtitle: "Synopsis"
                 </div>
             </div>
             <div class="col-sm-12">
-                <a href="tba"><img src="/assets/img/main.jpg" class="w-100"></a>
+                <a href="/assets/static/nksw-tfuco-21.pdf"><img src="/assets/img/main.jpg" class="w-100"></a>
             </div>
         </div>
     </div>

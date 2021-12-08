@@ -15,6 +15,8 @@ navbar_list:
   link: /data
 - name: CoNEXT'21 Artifacts
   link: https://github.com/ilabrg/artifacts-conext21-dns-fwd
+- name: Paper
+  link: /assets/static/nksw-tfuco-21.pdf
 - name: Contact
   link: /contact
 
