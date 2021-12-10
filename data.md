@@ -3,6 +3,22 @@ layout: base
 title:  "Transparent DNS Forwarders Measurement Results"
 datatable: true
 ---
+
+<main id="last_scan" class="row row-cols-sm-1 px-3 mb-3 mt-5">
+    <div class="box h-100 w-100">
+        <div class="box-title">Scanning Continues</div>
+            <div class="row px-3 mb-3 align-items-stretch">
+                <div class="col-sm-12">
+                    <p class="fs-4 text-justify">
+                    Last successfull measurement: <b><u>December 09, 2021</u></b>
+                    </p>
+                </div>
+            </div>
+    </div>
+</main>
+
+
+
 <main id="odns_components" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
         <div class="box-title">Distribution of ODNS Components over the World</div>
