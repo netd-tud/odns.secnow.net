@@ -10,7 +10,7 @@ datatable: true
             <div class="row px-3 mb-3 align-items-stretch">
                 <div class="col-sm-12">
                     <p class="fs-4 text-justify">
-                    Last successfull measurement: <b><u>December 19, 2021</u></b>
+                    Last successfull measurement: <b><u>December 15, 2021</u></b>
                     </p>
                 </div>
             </div>
@@ -36,10 +36,7 @@ datatable: true
         <div class="box-title">Number of ODNS Components</div>
             <div class="row px-3 mb-3 align-items-stretch">
                 <div class="col-sm-12">
-                    <p class="fs-4 text-justify">
-                    This line plot shows the amount of every ODNS component for every measurements we have done. This data is refreshing on a weekly base as we continously scan the IPv4 address space for transparent forwarders.
-                    </p>
-                    <img src="/assets/img/figures/transp_fwd_over_time.png" width="90%">
+                    <iframe src="/assets/interactive_plots/lineplot_scan_overview.html" height="420" width="100%" scrolling="no"></iframe>
                 </div>
             </div>
     </div>
