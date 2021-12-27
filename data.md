@@ -6,7 +6,6 @@ datatable: true
 
 <script src="last_scan.js"></script>
 
-
 <main id="last_scan" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
         <div class="box-title">Scanning Continues</div>
