@@ -26,7 +26,7 @@ datatable: true
         <div class="box-title">Distribution of ODNS Components over the World</div>
             <div class="row px-3 mb-3 align-items-stretch">
                 <div class="col-sm-12">
-                    <img src="/assets/img/figures/world_map_odns.png" width="90%">
+                    <iframe src="/assets/interactive_plots/worldmap_scan_overview.html" height="550" width="100%" scrolling="no"></iframe>
                 </div>
             </div>
     </div>
