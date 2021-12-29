@@ -53,7 +53,7 @@ datatable: true
                     <p class="fs-4 text-justify">
                     This plot shows the Top-50 countries which host the most transparent forwarders (absolut). The bars show the share of all ODNS components per country, the left y-axis shows the absolut amount of transparent forwarders active in these countries. Countries highlighted in bold and marked with a '*' are emerging markets.
                     </p>
-                    <iframe src="/assets/interactive_plots/barplot_topxcc_overview.html" height="550" width="100%" scrolling="no"></iframe>
+                    <iframe src="/assets/interactive_plots/barplot_topxcc.html" height="550" width="100%" scrolling="no"></iframe>
                 </div>
             </div>
     </div>
