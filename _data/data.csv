@@ -1,51 +1,85 @@
-Index ,    ASN ,   # Transparent Forwarders. 
-0 ,  47331 ,            49161
-1 ,   5617 ,            24255
-2 ,  45804 ,            17085
-3 ,   4812 ,             9485
-4 ,    209 ,             8553
-5 ,  28100 ,             7160
-6 ,  58659 ,             6972
-7 ,  52271 ,             6033
-8 ,  37455 ,             5238
-9 ,   5410 ,             4895
-10 , 133647 ,             4488
-11 , 263230 ,             4316
-12 , 262375 ,             4232
-13 ,  18229 ,             3867
-14 ,  45235 ,             3789
-15 , 264100 ,             3148
-16 , 262624 ,             3074
-17 ,  47849 ,             3053
-18 ,   9121 ,             2902
-19 , 262770 ,             2780
-20 , 262689 ,             2768
-21 ,  58495 ,             2261
-22 ,  29600 ,             2043
-23 , 263108 ,             2042
-24 , 262803 ,             2040
-25 , 265013 ,             2040
-26 , 197025 ,             2039
-27 , 134929 ,             2038
-28 ,  52964 ,             2030
-29 , 264158 ,             2012
-30 , 263539 ,             2001
-31 ,   7303 ,             1922
-32 ,  52145 ,             1915
-33 ,  52447 ,             1913
-34 , 262958 ,             1836
-35 ,  61711 ,             1708
-36 ,  52904 ,             1652
-37 ,   5639 ,             1599
-38 ,  12301 ,             1562
-39 ,  53009 ,             1529
-40 , 134305 ,             1421
-41 ,  34984 ,             1362
-42 , 263401 ,             1276
-43 , 132941 ,             1274
-44 , 136354 ,             1244
-45 , 134877 ,             1229
-46 , 138220 ,             1220
-47 , 263267 ,             1219
-48 ,  27987 ,             1215
-49 , 133711 ,             1212
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="987d3279-aaed-4510-89ce-81abccd7259e" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1331">
+          {"f1bc68ce-3526-441e-9735-c6a6d95c20e9":{"defs":[],"roots":{"references":[{"attributes":{"ticker":null},"id":"1051","type":"LogTickFormatter"},{"attributes":{},"id":"1052","type":"AllLabels"},{"attributes":{"label":{"value":"% Recursive Resolvers"},"renderers":[{"id":"1089"}]},"id":"1105","type":"LegendItem"},{"attributes":{"axis_label":"ODNS Share [%]","coordinates":null,"formatter":{"id":"1054"},"group":null,"major_label_policy":{"id":"1055"},"ticker":{"id":"1053"},"y_range_name":"barplot_y"},"id":"1035","type":"LinearAxis"},{"attributes":{},"id":"1053","type":"BasicTicker"},{"attributes":{},"id":"1054","type":"BasicTickFormatter"},{"attributes":{"fields":["% Transparent Forwarders"]},"id":"1038","type":"Stack"},{"attributes":{"data":{"# Dif. ASes":["1188","38","316","81","425","76","105","133","281","30","3","29","14","88","81","47","19","224","62","9","10","25","1","72","22","78","39","9","2","2","28","52","13","42","32","18","15","16","40","7","18","15","8","37","40","25","41","9","10","8"],"# Transparent Forwarders":[239564,111259,72929,36625,31658,24410,23700,23471,14804,9829,8206,5364,4922,4708,3872,3413,3001,2995,2943,2090,2078,1905,1881,1761,1720,1436,1337,1158,1027,1010,929,903,895,884,834,690,666,610,607,603,582,553,493,460,433,386,365,363,363,354],"% Recursive Forwarders":[12.488746496378832,11.803938840999182,40.594766313154814,20.12051065305503,73.18156385508463,95.6294616084837,29.807410017027774,52.09552845528456,69.07371854420842,66.48552239221915,2.2621740683414693,62.423743916649535,21.12923864363404,59.75217629989805,78.0046998504593,67.52934898612594,49.70185334407736,94.14496448734293,80.20439764633012,11.06418918918919,39.948674080410605,66.47018030513176,5.083039758429794,87.05467832441602,63.2242287434161,84.18521177315147,85.59599934415478,32.06018518518518,2.9053420805998127,1.8410852713178296,39.436619718309856,67.04075605434141,56.137865911237014,85.03853710140548,80.35215804165772,83.77468581687613,85.08132361189007,63.688311688311686,92.82848898585404,66.3232104121475,88.8469905728789,90.01552795031056,87.4063989108237,92.41173028155276,83.1856807087326,92.80571149621674,81.30446811453866,79.94910941475827,82.40534521158129,95.99969492430309],"% Recursive Resolvers":[0.19354203798672542,0.6897690807273643,0.9000914531422979,0.49634783362594015,4.676877885018884,0.3378473260499287,0.6135869884328576,0.1991869918699187,0.36539295225119217,6.122676476325837,0.03571853792118109,0.8088285694701488,0.14395393474088292,3.3252293937730375,5.451826532792139,2.1166844539309855,1.9339242546333604,1.9590498738194968,1.5670486218643542,0.6756756756756757,0.7984031936127743,0.5027739251040222,0.25163563160543534,1.455043716560094,4.420617005267118,5.506101938262742,3.443187407771766,0.9259259259259258,0.8434864104967198,0.29069767441860467,1.088348271446863,6.2906083874778504,1.6052880075542966,1.6019344113646667,1.7393171569680053,0.7405745062836625,2.467750981491868,4.623376623376623,2.8995706946301643,0.9761388286334056,2.71211022480058,1.3975155279503106,1.4068527342863626,4.597177969959035,8.985716868559031,4.8389065169636325,16.170978005256607,1.5776081424936386,6.045179764556156,2.6503451168821264],"% Transparent Forwarders":[87.31771146563445,87.50629207827345,58.50514223370289,79.38314151331903,22.141558259896488,4.032691065466387,69.57900299453938,47.70528455284553,30.56088850354039,27.391801131455008,97.70210739373735,36.76742751388032,78.72680742162508,36.92259430632892,16.543473616748557,30.35396655994308,48.36422240128928,3.8959856388375784,18.228553731805512,88.26013513513513,59.25292272597662,33.02704576976422,94.66532460996477,11.490277959023881,32.35515425131678,10.308686288585786,10.960813248073455,67.01388888888889,96.25117150890347,97.86821705426357,59.475032010243275,26.668635558180743,42.256846081208685,13.359528487229863,17.908524801374277,15.484739676840215,12.450925406618058,31.68831168831169,4.2719403195157994,32.700650759219094,8.440899202320521,8.58695652173913,11.186748354889946,2.991091748488198,7.828602422708371,2.355381986819624,2.524553880204731,18.473282442748094,11.549475023862552,1.349959958814781],"Is Emerging Market":["Yes","Yes","Yes","Yes","No","Yes","Yes","Yes","Yes","No","No","No","No","No","No","No","No","Yes","Yes","No","No","No","No","No","No","No","Yes","No","No","No","No","No","Yes","No","Yes","No","No","No","No","No","No","Yes","Yes","No","No","Yes","No","No","Yes","No"],"countries":["*BRA","*TUR","*IND","*POL"," USA","*CHN","*ARG","*BGD","*IDN"," FRA"," MUS"," BGR"," AFG"," CAN"," ITA"," ESP"," HUN","*RUS","*ZAF"," PRY"," LVA"," VEN"," TTO"," UKR"," CHL"," GBR","*MEX"," PSE"," BLZ"," COD"," IRQ"," CZE","*NGA"," PAK","*COL"," ECU"," ISR"," SVK"," AUS"," DOM"," ROU","*PHL","*EGY"," JPN"," NLD","*THA"," DEU"," HRV","*MYS"," VNM"]},"selected":{"id":"1060"},"selection_policy":{"id":"1059"}},"id":"1002","type":"ColumnDataSource"},{"attributes":{},"id":"1055","type":"AllLabels"},{"attributes":{},"id":"1057","type":"CategoricalTickFormatter"},{"attributes":{"fields":["% Transparent Forwarders"]},"id":"1037","type":"Stack"},{"attributes":{},"id":"1034","type":"LinearScale"},{"attributes":{},"id":"1058","type":"AllLabels"},{"attributes":{"fields":["% Transparent Forwarders","% Recursive Forwarders"]},"id":"1039","type":"Stack"},{"attributes":{"fields":[]},"id":"1036","type":"Stack"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1107"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1109"},"nonselection_glyph":{"id":"1108"},"view":{"id":"1111"}},"id":"1110","type":"GlyphRenderer"},{"attributes":{},"id":"1059","type":"UnionRenderers"},{"attributes":{"source":{"id":"1002"}},"id":"1111","type":"CDSView"},{"attributes":{"fields":["% Transparent Forwarders","% Recursive Forwarders"]},"id":"1040","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"1038"}},"fill_color":{"value":"#2DA8D8"},"hatch_color":{"value":"#2DA8D8"},"line_color":{"value":"#2DA8D8"},"top":{"expr":{"id":"1039"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1065","type":"VBar"},{"attributes":{},"id":"1060","type":"Selection"},{"attributes":{"fields":["% Transparent Forwarders","% Recursive Forwarders","% Recursive Resolvers"]},"id":"1041","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"1036"}},"fill_color":{"value":"#D9514E"},"hatch_color":{"value":"#D9514E"},"line_color":{"value":"#D9514E"},"top":{"expr":{"id":"1037"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1043","type":"VBar"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1065"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1067"},"name":"% Recursive Forwarders","nonselection_glyph":{"id":"1066"},"view":{"id":"1069"},"y_range_name":"barplot_y"},"id":"1068","type":"GlyphRenderer"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1043"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1045"},"name":"% Transparent Forwarders","nonselection_glyph":{"id":"1044"},"view":{"id":"1047"},"y_range_name":"barplot_y"},"id":"1046","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.2,"line_width":2,"x":{"field":"countries"},"y":{"field":"# Transparent Forwarders"}},"id":"1109","type":"Line"},{"attributes":{"bottom":{"expr":{"id":"1036"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#D9514E"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#D9514E"},"line_alpha":{"value":0.1},"line_color":{"value":"#D9514E"},"top":{"expr":{"id":"1037"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1044","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"1038"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#2DA8D8"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#2DA8D8"},"line_alpha":{"value":0.1},"line_color":{"value":"#2DA8D8"},"top":{"expr":{"id":"1039"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1066","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"1038"}},"fill_alpha":{"value":0.2},"fill_color":{"value":"#2DA8D8"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#2DA8D8"},"line_alpha":{"value":0.2},"line_color":{"value":"#2DA8D8"},"top":{"expr":{"id":"1039"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1067","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"1036"}},"fill_alpha":{"value":0.2},"fill_color":{"value":"#D9514E"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#D9514E"},"line_alpha":{"value":0.2},"line_color":{"value":"#D9514E"},"top":{"expr":{"id":"1037"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1045","type":"VBar"},{"attributes":{"label":{"value":"% Recursive Forwarders"},"renderers":[{"id":"1068"}]},"id":"1084","type":"LegendItem"},{"attributes":{"source":{"id":"1002"}},"id":"1069","type":"CDSView"},{"attributes":{"source":{"id":"1002"}},"id":"1047","type":"CDSView"},{"attributes":{"label":{"value":"# Transparent Forwarders"},"renderers":[{"id":"1110"},{"id":"1131"}]},"id":"1126","type":"LegendItem"},{"attributes":{"line_width":2,"x":{"field":"countries"},"y":{"field":"# Transparent Forwarders"}},"id":"1107","type":"Line"},{"attributes":{"below":[{"id":"1012"}],"center":[{"id":"1014"},{"id":"1018"},{"id":"1062"}],"extra_y_ranges":{"barplot_y":{"id":"1033"}},"extra_y_scales":{"barplot_y":{"id":"1034"}},"height":400,"left":[{"id":"1015"}],"renderers":[{"id":"1046"},{"id":"1068"},{"id":"1089"},{"id":"1110"},{"id":"1131"}],"right":[{"id":"1035"}],"sizing_mode":"stretch_width","title":{"id":"1048"},"toolbar":{"id":"1026"},"x_range":{"id":"1004"},"x_scale":{"id":"1008"},"y_range":{"id":"1006"},"y_scale":{"id":"1010"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"1063"},{"id":"1084"},{"id":"1105"},{"id":"1126"}]},"id":"1062","type":"Legend"},{"attributes":{"end":100},"id":"1033","type":"Range1d"},{"attributes":{"label":{"value":"% Transparent Forwarders"},"renderers":[{"id":"1046"}]},"id":"1063","type":"LegendItem"},{"attributes":{},"id":"1010","type":"LogScale"},{"attributes":{"coordinates":null,"group":null},"id":"1048","type":"Title"},{"attributes":{},"id":"1008","type":"CategoricalScale"},{"attributes":{"factors":["*BRA","*TUR","*IND","*POL"," USA","*CHN","*ARG","*BGD","*IDN"," FRA"," MUS"," BGR"," AFG"," CAN"," ITA"," ESP"," HUN","*RUS","*ZAF"," PRY"," LVA"," VEN"," TTO"," UKR"," CHL"," GBR","*MEX"," PSE"," BLZ"," COD"," IRQ"," CZE","*NGA"," PAK","*COL"," ECU"," ISR"," SVK"," AUS"," DOM"," ROU","*PHL","*EGY"," JPN"," NLD","*THA"," DEU"," HRV","*MYS"," VNM"]},"id":"1004","type":"FactorRange"},{"attributes":{"coordinates":null,"formatter":{"id":"1057"},"group":null,"major_label_orientation":"vertical","major_label_policy":{"id":"1058"},"major_label_text_font":"monospace","major_label_text_font_size":"14pt","ticker":{"id":"1013"}},"id":"1012","type":"CategoricalAxis"},{"attributes":{"axis_label":"Transparent Forwarders [#]","coordinates":null,"formatter":{"id":"1051"},"group":null,"major_label_policy":{"id":"1052"},"major_label_text_font":"monospace","major_label_text_font_size":"14pt","ticker":{"id":"1016"}},"id":"1015","type":"LogAxis"},{"attributes":{"end":1000000,"start":100},"id":"1006","type":"Range1d"},{"attributes":{},"id":"1013","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"1012"},"coordinates":null,"group":null,"ticker":null},"id":"1014","type":"Grid"},{"attributes":{"callback":null,"renderers":[{"id":"1046"},{"id":"1068"},{"id":"1089"}],"tooltips":[["Country","@countries"],["% Recursive Forwarder","@{% Recursive Forwarders}"],["% Transparent Forwarder","@{% Transparent Forwarders}"],["% Recursive Resolver","@{% Recursive Resolvers}"],["# Transparent Forwarders","@{# Transparent Forwarders}"],["# Dif. ASes","@{# Dif. ASes}"],["Emerging Market","@{Is Emerging Market}"]]},"id":"1147","type":"HoverTool"},{"attributes":{"axis":{"id":"1015"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1018","type":"Grid"},{"attributes":{"num_minor_ticks":10},"id":"1016","type":"LogTicker"},{"attributes":{"fill_color":{"value":"black"},"x":{"field":"countries"},"y":{"field":"# Transparent Forwarders"}},"id":"1128","type":"Scatter"},{"attributes":{"overlay":{"id":"1025"}},"id":"1021","type":"BoxZoomTool"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1128"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1130"},"nonselection_glyph":{"id":"1129"},"view":{"id":"1132"}},"id":"1131","type":"GlyphRenderer"},{"attributes":{},"id":"1024","type":"HelpTool"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1025","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"black"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"x":{"field":"countries"},"y":{"field":"# Transparent Forwarders"}},"id":"1129","type":"Scatter"},{"attributes":{},"id":"1019","type":"PanTool"},{"attributes":{"source":{"id":"1002"}},"id":"1132","type":"CDSView"},{"attributes":{},"id":"1020","type":"WheelZoomTool"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"black"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"x":{"field":"countries"},"y":{"field":"# Transparent Forwarders"}},"id":"1130","type":"Scatter"},{"attributes":{},"id":"1022","type":"SaveTool"},{"attributes":{},"id":"1023","type":"ResetTool"},{"attributes":{"tools":[{"id":"1019"},{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1147"}]},"id":"1026","type":"Toolbar"},{"attributes":{"bottom":{"expr":{"id":"1040"}},"fill_color":{"value":"#74d82d"},"hatch_color":{"value":"#74d82d"},"line_color":{"value":"#74d82d"},"top":{"expr":{"id":"1041"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1086","type":"VBar"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1086"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1088"},"name":"% Recursive Resolvers","nonselection_glyph":{"id":"1087"},"view":{"id":"1090"},"y_range_name":"barplot_y"},"id":"1089","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_width":2,"x":{"field":"countries"},"y":{"field":"# Transparent Forwarders"}},"id":"1108","type":"Line"},{"attributes":{"bottom":{"expr":{"id":"1040"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#74d82d"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#74d82d"},"line_alpha":{"value":0.1},"line_color":{"value":"#74d82d"},"top":{"expr":{"id":"1041"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1087","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"1040"}},"fill_alpha":{"value":0.2},"fill_color":{"value":"#74d82d"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#74d82d"},"line_alpha":{"value":0.2},"line_color":{"value":"#74d82d"},"top":{"expr":{"id":"1041"}},"width":{"value":0.7},"x":{"field":"countries"}},"id":"1088","type":"VBar"},{"attributes":{"source":{"id":"1002"}},"id":"1090","type":"CDSView"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1331').textContent;
+                  const render_items = [{"docid":"f1bc68ce-3526-441e-9735-c6a6d95c20e9","root_ids":["1003"],"roots":{"1003":"987d3279-aaed-4510-89ce-81abccd7259e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
