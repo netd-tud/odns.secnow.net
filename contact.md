@@ -22,7 +22,7 @@ title:  "About"
                                 </li>
                                 <li class="list-group-item head">
                                     <div class="head-img mk rounded-circle float-start"></div>
-                                    <p class="mt-4">Maynard Koch
+                                    <p class="mt-4"> <a href="https://www.mi.fu-berlin.de/en/inf/groups/ilab/members/koch.html">Maynard Koch</a>
                                         Undergraduate student at <em>Freie Universit&auml;t Berlin</em>
                                     </p>
                                 </li>
