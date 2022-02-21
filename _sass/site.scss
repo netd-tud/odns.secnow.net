@@ -52,8 +52,9 @@ a {
 
     & > .box-title {
         background: var(--bs-light);
-        position: absolute;
-        top: -20pt;
+        position: relative;
+        top: -1.5cm;
+        margin-bottom: -1cm;
         font-family: 'LibreBaskerville';
         font-weight: bold;
         padding: 0 1rem;
