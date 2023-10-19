@@ -14,6 +14,12 @@ title:  "About"
                         <div class="col-sm-12">
                             <ul class="list-group">
                                 <li class="list-group-item head">
+                                    <div class="head-img mk rounded-circle float-start"></div>
+                                    <p class="mt-4"> <a href="https://netd.cs.tu-dresden.de/about/team/koch">Maynard Koch</a>
+                                        PhD Student and Research Associate at <em>TU Dresden</em>
+                                    </p>
+                                </li>
+                                <li class="list-group-item head">
                                     <div class="head-img mn rounded-circle float-start"></div>
                                     <p class="mt-4"><a
                                             href="https://www.nawrocki.berlin/">Marcin Nawrocki</a>
@@ -21,17 +27,11 @@ title:  "About"
                                     </p>
                                 </li>
                                 <li class="list-group-item head">
-                                    <div class="head-img mk rounded-circle float-start"></div>
-                                    <p class="mt-4"> <a href="https://netd.cs.tu-dresden.de/about/team/koch">Maynard Koch</a>
-                                        PhD Student and Research Associate at <em>TU Dresden</em>
-                                    </p>
-                                </li>
-                                <li class="list-group-item head">
                                     <div class="head-img tcs rounded-circle float-start"></div>
                                     <p class="mt-4">
                                         <a href="https://users.informatik.haw-hamburg.de/~schmidt/">Thomas C.
                                             Schmidt</a>
-                                        Professor, Department of Informatik at <em>Hamburg
+                                        Professor, Department of Computer Science at <em>Hamburg
                                             University of Applied Sciences</em>
                                     </p>
                                 </li>
