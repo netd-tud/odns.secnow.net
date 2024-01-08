@@ -1,1 +1,1 @@
-var last_scan = '2023-12-30';
+var last_scan = '2024-01-06';
