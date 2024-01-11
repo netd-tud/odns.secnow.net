@@ -10,7 +10,7 @@ subtitle: "Synopsis"
         <div class="row px-3 mb-3 align-items-stretch">
             <div class="col-sm-12">
                 <p class="fs-3 text-justify">
-                We started to continue our measurements on a weekly base!<br>Visit <a href="/data">Measurements</a> to see our current results.
+                We started to continue our measurements on a weekly base!<br>Click <a href="/data">here</a> to see our current DNS over <b>UDP</b> results.<br>Or <a href="/tcp-scans">here</a> to see our current DNS over <b>TCP</b> results.
                 </p>
             </div>
         </div>
