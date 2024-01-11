@@ -11,8 +11,10 @@ url: "https://odns.secnow.net" # the base hostname & protocol for your site
 navbar_list:
 - name: Home
   link: /
-- name: Measurements
+- name: DoUDP Measurements
   link: /data
+- name: DoTCP Measurements
+  link: /tcp-scans
 - name: CoNEXT'21 Artifacts
   link: https://github.com/ilabrg/artifacts-conext21-dns-fwd
 - name: Paper
