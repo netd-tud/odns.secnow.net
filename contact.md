@@ -48,4 +48,36 @@ title:  "About"
                         </div>
         </div>
     </div>
+
+    <div class="box h-100 w-100">
+        <div class="box-title">Credits</div>
+        <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
+            <div class="col-sm-12">
+                            <p class="fs-4 text-justify">As a result of a software project, three students of the TU Dresden have developed a high-performance go tool for DNS over TCP measurements so that we can now also provide you with the distribution of transparent forwarders over DoTCP.</br><b>BIG thanks!</b></p>
+
+            </div>
+                        <div class="col-sm-12">
+                            <ul class="list-group">
+                                <li class="list-group-item head">
+                                    <div class="head-img silhouette rounded-circle float-start"></div>
+                                    <p class="mt-4"> 
+                                        Student at <em>TU Dresden</em>
+                                    </p>
+                                </li>
+                                <li class="list-group-item head">
+                                    <div class="head-img silhouette rounded-circle float-start"></div>
+                                    <p class="mt-4"> 
+                                        Student at <em>TU Dresden</em>
+                                    </p>
+                                </li>
+                                <li class="list-group-item head">
+                                    <div class="head-img silhouette rounded-circle float-start"></div>
+                                    <p class="mt-4"> 
+                                        Student at <em>TU Dresden</em>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+        </div>
+    </div>
 </main>
