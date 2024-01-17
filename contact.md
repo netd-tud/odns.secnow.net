@@ -53,7 +53,7 @@ title:  "About"
         <div class="box-title">Credits</div>
         <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
             <div class="col-sm-12">
-                            <p class="fs-4 text-justify">As a result of a software project, three students of the TU Dresden have developed a high-performance GO tool for DNS over TCP measurements so that we can now also provide you with the distribution of transparent forwarders over DoTCP.<br><b>BIG thanks!</b></p>
+                            <p class="fs-4 text-justify">As a result of a software project, three students of the TU Dresden have developed a high-performance <em>GO</em> tool for DNS over TCP measurements so that we can now also provide you with the distribution of transparent forwarders over DoTCP.<br><b>BIG thanks!</b></p>
 
             </div>
                         <div class="col-sm-12">
