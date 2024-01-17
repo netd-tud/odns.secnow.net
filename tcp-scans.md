@@ -66,7 +66,7 @@ datatable: true
             <div class="row px-3 mb-3 align-items-stretch">
                 <div class="col-sm-12">
                     <p class="fs-4 text-justify">
-                    This plot shows the Top-50 countries which host the most transparent forwarders (absolut). Countries marked with a '*' are emerging markets. This heatmap shows where transparent forwarders relay their requests to. Most of the requests are forwarded to resolver of Google. 
+                    This plot shows the Top-50 countries which host the most transparent forwarders (absolut). Countries marked with a '*' are emerging markets, the heatmap shows where transparent forwarders relay their requests to.
                     </p>
                     <iframe src="/assets/interactive_plots/tcp_heatmap_topxcc.html" height="420" width="100%" scrolling="no"></iframe>
                 </div>
