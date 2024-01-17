@@ -61,18 +61,21 @@ title:  "About"
                                 <li class="list-group-item head">
                                     <div class="head-img silhouette rounded-circle float-start"></div>
                                     <p class="mt-4"> 
+                                    <a href="https://github.com/f10d0">Florian Dolzmann</a>
                                         Student at <em>TU Dresden</em>
                                     </p>
                                 </li>
                                 <li class="list-group-item head">
                                     <div class="head-img silhouette rounded-circle float-start"></div>
                                     <p class="mt-4"> 
+                                    <a href="https://github.com/bennetKuhlmann">Carl Bennet Kuhlmann</a>
                                         Student at <em>TU Dresden</em>
                                     </p>
                                 </li>
                                 <li class="list-group-item head">
                                     <div class="head-img silhouette rounded-circle float-start"></div>
                                     <p class="mt-4"> 
+                                    <a href="https://github.com/MaximilianStaeps">Maximilian Stäps</a>
                                         Student at <em>TU Dresden</em>
                                     </p>
                                 </li>
