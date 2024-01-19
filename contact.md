@@ -53,7 +53,7 @@ title:  "About"
         <div class="box-title">Credits</div>
         <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
             <div class="col-sm-12">
-                            <p class="fs-4 text-justify">As a result of a software project, three students of the TU Dresden have developed a high-performance <em>GO</em> tool for DNS over TCP measurements so that we can now also provide you with the distribution of transparent forwarders over DoTCP.<br><b>BIG thanks!</b></p>
+                            <p class="fs-4 text-justify">We gratefully acknowledge the contributions of the following people. Their work help to provide a better view on the open DNS threat landscape. <b>BIG thanks!</b></p>
 
             </div>
                         <div class="col-sm-12">
@@ -64,6 +64,9 @@ title:  "About"
                                     <a href="https://github.com/f10d0">Florian Dolzmann</a>
                                         Student at <em>TU Dresden</em>
                                     </p>
+                                    <p class="mt-4"> 
+                                        Contributed a highly scalable <em>GO</em> implementation to measure DNS over TCP.
+                                    </p>
                                 </li>
                                 <li class="list-group-item head">
                                     <div class="head-img silhouette rounded-circle float-start"></div>
@@ -71,12 +74,18 @@ title:  "About"
                                     <a href="https://github.com/bennetKuhlmann">Carl Bennet Kuhlmann</a>
                                         Student at <em>TU Dresden</em>
                                     </p>
+                                    <p class="mt-4"> 
+                                        Contributed a highly scalable <em>GO</em> implementation to measure DNS over TCP.
+                                    </p>
                                 </li>
                                 <li class="list-group-item head">
                                     <div class="head-img silhouette rounded-circle float-start"></div>
                                     <p class="mt-4"> 
                                     <a href="https://github.com/MaximilianStaeps">Maximilian Stäps</a>
                                         Student at <em>TU Dresden</em>
+                                    </p>
+                                    <p class="mt-4"> 
+                                        Contributed a highly scalable <em>GO</em> implementation to measure DNS over TCP.
                                     </p>
                                 </li>
                             </ul>
