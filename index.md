@@ -6,11 +6,15 @@ subtitle: "Synopsis"
 
 <main id="Note" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
-        <div class="box-title">New Measurements</div>
+        <div class="box-title">News</div>
         <div class="row px-3 mb-3 align-items-stretch">
             <div class="col-sm-12">
-                <p class="fs-3 text-justify">
-                We started to continue our measurements on a weekly base!<br>Click <a href="/data">here</a> to see our current DNS over <b>UDP</b> results.<br>Or <a href="/tcp-scans">here</a> to see our current DNS over <b>TCP</b> results.
+                <p class="fs-4 font-monospace text-justify">
+                <b>2024-01-08:</b> Start of <a href="/tcp-scans">DNS over TCP</a> scans.
+                <br/>
+                <b>2021-12-09:</b> Change to weekly scans.
+                <br/>
+                <b>2021-04-21:</b> Start of <a href="/data">DNS over UDP</a> scans.
                 </p>
             </div>
         </div>
