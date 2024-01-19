@@ -35,7 +35,7 @@ subtitle: "Synopsis"
                         <hr>
                         <p class="text-center">
                             <strong class="fs-2">
-                                           Key findings include that transparent forwarders contribute 26% to the current ODNS infrastructure, missed by common scanning campaigns; and that many transparent forwarders relay to a few selected public resolvers such as Google and Cloudflare, which confirms a consolidation trend of DNS stakeholders. Full access to data will follow soon. <!--<u class="primary">assurance profiles here</u>-->
+                                           Key findings include that transparent forwarders contribute significantly to the current ODNS infrastructure, missed by common scanning campaigns; and that many transparent forwarders relay to a few selected public resolvers such as Google and Cloudflare, which confirms a consolidation trend of DNS stakeholders. Full access to data will follow soon. <!--<u class="primary">assurance profiles here</u>-->
 
                             </strong>
                         </p>
