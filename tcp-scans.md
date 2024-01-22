@@ -36,7 +36,7 @@ datatable: true
 
 <main id="odns_amount_over_time" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
-        <div class="box-title">Number of ODNS Components</div>
+        <div class="box-title">Number of ODNS Components: <script type="text/javascript">document.write(num_odns)</script></div>
             <div class="row px-3 mb-3 align-items-stretch">
                 <div class="col-sm-12">
                     <iframe src="/assets/interactive_plots/tcp_lineplot_scan_overview.html" height="420" width="100%" scrolling="no"></iframe>

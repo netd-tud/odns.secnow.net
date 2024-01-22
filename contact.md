@@ -48,7 +48,8 @@ title:  "About"
                         </div>
         </div>
     </div>
-
+</main>
+<main id="about" class="row row-cols-sm-1 px-3 mb-3 mt-5">
     <div class="box h-100 w-100">
         <div class="box-title">Credits</div>
         <div class="row row-cols-lg-1 row-cols-xl-2 px-3 mb-3 align-items-stretch">
