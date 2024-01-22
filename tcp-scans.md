@@ -80,13 +80,13 @@ datatable: true
       <div class="row px-3 mb-3 align-items-stretch">
         <div class="col-sm-12">
           <p class="fs-4 text-justify">
-          This table shows the top-50 autonomous systems (AS) that host most of the transparent DNS forwarders as presented in the ACM CoNEXT'21 paper. The <a href="https://github.com/netd-tud/artifacts-conext21-dns-fwd/tree/main/dns-measurement-analysis/dataframes">full data set</a> is also available as part of the <a href="https://github.com/ilabrg/artifacts-conext21-dns-fwd">artifacts collection</a>. Note that the data set is outdated but can still give some valuable information. If you need a current version of our scanning data for research purposes just drop an <a href="/contact"> email</a>. Briefly explain your research and why you need access to our dataset in one or two sentences.
+          This table shows the top-50 autonomous systems (AS) that host most of the transparent DNS forwarders.
           </p>
 
           <p class="fs-3 text-justify">
 
   <table id="table_id">
-    {% for row in site.data.data %}
+    {% for row in site.data.tcp_data %}
       {% if forloop.first %}
       <thead>
         <tr>
