@@ -10,7 +10,7 @@ subtitle: "Synopsis"
         <div class="row px-3 mb-3 align-items-stretch">
             <div class="col-sm-12">
                 <p class="fs-4 font-monospace text-justify">
-                <b>2024-05-31:</b> Improved <a href="/data">DNS over UDP</a> measurements -- now using highly scalable GO implementation.
+                <b>2024-05-31:</b> Improved <a href="/data">DNS over UDP</a> measurements.
                 <br/>
                 <b>2024-01-08:</b> Start of <a href="/tcp-scans">DNS over TCP</a> measurements.
                 <br/>
