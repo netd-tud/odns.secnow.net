@@ -10,6 +10,8 @@ subtitle: "Synopsis"
         <div class="row px-3 mb-3 align-items-stretch">
             <div class="col-sm-12">
                 <p class="fs-4 font-monospace text-justify">
+                <b>2025-05-01:</b> Released <a href="https://odns-data.netd.cs.tu-dresden.de">ODNS API</a> to the public.
+                <br/>
                 <b>2024-05-31:</b> Improved <a href="/data">DNS over UDP</a> measurements.
                 <br/>
                 <b>2024-01-08:</b> Start of <a href="/tcp-scans">DNS over TCP</a> measurements.
