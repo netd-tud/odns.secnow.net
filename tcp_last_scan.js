@@ -1,2 +1,2 @@
-var last_scan = '2025-04-20';
-var num_odns = '922,774';
+var last_scan = '2025-04-27';
+var num_odns = '31,272';
